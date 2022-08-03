@@ -1,0 +1,27 @@
+net user ou net users
+net user nome_da_conta * 
+------------------------
+
+net user Administrador *
+net user Convidado *
+
+------------------------
+HKEY_CURRENT_USER > Software > Microsoft > Windows > Versão atual CurrentVersion > Políticas Policies
+
+--------------------------
+Tenha em mente, no entanto, que isso só funciona se você tiver o Windows configurado para conectar-se automaticamente.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+
+DefaultPassword
+
+---------------------
+
+login automatico
+
+netplwiz
+---------------------
+
+Senhas do Google
+
+%LocalAppData%\Google\Chrome\User Data\Default\Login Data

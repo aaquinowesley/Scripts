@@ -1,0 +1,17 @@
+Linux || Windows
+
+* Voltar para o diretorio principal  *
+
+cd ~
+
+cd \
+
+* Criar pastas * 
+
+mkdir nome_da_pasta
+
+* Criar Arquivos *
+
+cat nome_do_arquivo.sh
+
+type nul > nomedoarquivo.bat
