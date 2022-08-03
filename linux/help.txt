@@ -1,0 +1,6 @@
+sudo fdisk -l
+
+
+grub 
+
+ls

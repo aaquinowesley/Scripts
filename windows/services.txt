@@ -9,5 +9,6 @@ calc
 notepad
 write
 
+diskpart
 
 O start no cmd funciona como se fosse o win+r "Executar"
