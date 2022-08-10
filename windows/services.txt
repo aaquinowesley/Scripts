@@ -12,3 +12,18 @@ write
 diskpart
 
 O start no cmd funciona como se fosse o win+r "Executar"
+
+# Verificar versão do dotnet 
+
+wmic product get description | findstr /C:.NET
+
+
+# Informações do pc 
+
+systeminfo
+
+# Arquitetura do processador
+
+wmic computersystem get systemtype
+
+# Criar tarefas

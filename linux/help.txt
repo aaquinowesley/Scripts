@@ -1,6 +1,11 @@
 sudo fdisk -l
 
+cat
 
 grub 
 
 ls
+
+mv
+
+rm
