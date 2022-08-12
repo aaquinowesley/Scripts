@@ -1,0 +1,1 @@
+netsh advfirewall firewall set rule group="Descoberta de Rede" new enable=Yes
