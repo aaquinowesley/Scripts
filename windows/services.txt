@@ -9,6 +9,9 @@ calc
 notepad
 write
 
+msg * "Texto da mensagem"
+shutdown -r -t [tempo em segundos] -c "Mensagem a exibir ao usuário"
+
 diskpart
 
 O start no cmd funciona como se fosse o win+r "Executar"
@@ -27,3 +30,5 @@ systeminfo
 wmic computersystem get systemtype
 
 # Criar tarefas
+
+schtasks.exe
