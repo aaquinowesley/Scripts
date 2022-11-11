@@ -32,3 +32,28 @@ wmic computersystem get systemtype
 # Criar tarefas
 
 schtasks.exe
+
+
+Msgbox
+
+echo X=MsgBox("Message Description",0+16,"Title") > msg.vbs
+
+🛑 0x10 Stop
+❔  0x20 Ponto de interrogação
+⚠  0x30 Ponto de exclamação
+⏺ 0x40 Ponto de informação
+
+você pode escrever qualquer número de 0,1,2,3,4 em vez de 0 (antes do símbolo '+') e aqui está o significado de cada número:
+
+0 = Ok Button  
+1 = Ok/Cancel Button  
+2 = Abort/Retry/Ignore button  
+3 = Yes/No/Cancel  
+4 = Yes/No  
+
+você pode escrever qualquer número de 16,32,48,64 em vez de 16 (após o símbolo '+') e aqui está o significado de cada número:
+
+16 – Critical Icon  
+32 – Warning Icon  
+48 – Warning Message Icon   
+64 – Information Icon  
